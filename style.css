@@ -5,3 +5,19 @@
 .slogo-margin{
     margin-bottom: 0.2rem;
 }
+
+.btn-nav{
+    border-radius: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.center-icon{
+    align-self: center;
+}
+
+.icon-margin{
+    margin-left: 1rem;
+}
