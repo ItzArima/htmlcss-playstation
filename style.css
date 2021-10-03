@@ -90,8 +90,19 @@
     background-repeat: no-repeat;
 }
 
+.games img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.games{
+    color: white;
+    background-color: #1f1f1f;
+}
+
 @media(max-width :768px){
     .product-container{
         width: 33.33333%;
     }
-}    
+}   
+
