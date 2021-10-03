@@ -40,3 +40,12 @@
 .btn-jumbo{
     background-color: #cd3d0f;
 }
+
+.thumb-margin{
+    margin-top: 2rem;
+}
+
+.thumb{
+    width: 100%;
+    border-radius: 15px;
+}
