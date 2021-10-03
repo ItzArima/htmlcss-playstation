@@ -49,3 +49,16 @@
     width: 100%;
     border-radius: 15px;
 }
+
+.p-intro{
+    text-align: center;
+}
+
+.p-intro p:first-of-type{
+    color: #0072ce;
+    margin-bottom: 0;
+}
+
+.p-intro p:last-of-type{
+    margin-top: 1.5rem;
+}
