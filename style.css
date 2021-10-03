@@ -143,6 +143,10 @@
     background-color: white;
 }
 
+.social img{
+    width: 100%;
+}
+
 @media(max-width :768px){
     .product-container{
         width: 33.33333%;
