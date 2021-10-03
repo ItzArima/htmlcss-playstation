@@ -7,7 +7,7 @@
     height: 17px;
 }
 
-.btn-nav,.btn-jumbo,.btn-console,.btn-ps-plus{
+.btn-nav,.btn-jumbo,.btn-console,.btn-ps-plus,.btn-ps-now{
     border-radius: 20px;
 }
 
@@ -131,6 +131,16 @@
 
 .sconti img{
     width: 100%;
+}
+
+.ps-now{
+    color: white;
+    background-color: #161c3b;
+}
+
+.btn-ps-now{
+    color: black;
+    background-color: white;
 }
 
 @media(max-width :768px){
