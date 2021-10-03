@@ -147,6 +147,45 @@
     width: 100%;
 }
 
+.ps-footer img{
+    width: 100%;
+}
+
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+.globe{
+    display: flex;
+}
+
+.globe img{
+    width: 20px;
+}
+
+.globe p{
+    margin: auto;
+    margin-left: 0.5rem;
+}
+
+.link-footer ul{
+    list-style-type: none;
+}
+
+.link-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer a:hover{
+    font-weight: 600;
+}
+
+.copyright span{
+    text-decoration: underline;
+}
+
 @media(max-width :768px){
     .product-container{
         width: 33.33333%;
