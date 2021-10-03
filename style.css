@@ -7,7 +7,7 @@
     height: 17px;
 }
 
-.btn-nav,.btn-jumbo{
+.btn-nav,.btn-jumbo,.btn-console{
     border-radius: 20px;
 }
 
@@ -61,4 +61,16 @@
 
 .p-intro p:last-of-type{
     margin-top: 1.5rem;
+}
+
+.console{
+    width: 100%;
+}
+
+.btn-console{
+    background-color: #2d64e6;
+}
+
+.console-content{
+    margin: auto;
 }
