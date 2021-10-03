@@ -100,6 +100,14 @@
     background-color: #1f1f1f;
 }
 
+.text-align{
+    text-align: center;
+}
+
+.esplora img{
+    width: 100%;
+}
+
 @media(max-width :768px){
     .product-container{
         width: 33.33333%;
