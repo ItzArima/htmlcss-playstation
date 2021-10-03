@@ -63,7 +63,7 @@
     margin-top: 1.5rem;
 }
 
-.console{
+.console,.product{
     width: 100%;
 }
 
@@ -74,3 +74,24 @@
 .console-content{
     margin: auto;
 }
+
+.product-container{
+    flex:0 0 auto;
+    width: 20%; 
+}
+
+.product-container:hover{
+    border-bottom: 1px solid #2d64e6;
+}
+
+.it2-img{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width :768px){
+    .product-container{
+        width: 33.33333%;
+    }
+}    
