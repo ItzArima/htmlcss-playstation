@@ -7,7 +7,7 @@
     height: 17px;
 }
 
-.btn-nav,.btn-jumbo,.btn-console{
+.btn-nav,.btn-jumbo,.btn-console,.btn-ps-plus{
     border-radius: 20px;
 }
 
@@ -108,9 +108,34 @@
     width: 100%;
 }
 
+.ps-plus{
+    background-color: #bebcbb;
+}
+
+.hide img{
+    width: 100%;
+}
+
+.btn-ps-plus{
+    color: #2d64e6;
+    background-color: #d9dadc;
+}
+
+.ps-plus-logo{
+    width: 60%;
+}
+
+.ps-plus-content{
+    margin: auto;
+}
+
 @media(max-width :768px){
     .product-container{
         width: 33.33333%;
+    }
+
+    .hide{
+        display: none;
     }
 }   
 
