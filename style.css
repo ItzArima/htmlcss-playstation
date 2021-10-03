@@ -1,3 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+main{
+    padding-top: 90px;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.console-container{
+    padding: 0 2rem;
+}
+
 .slogo-background{
     background-color: #000000;
 }
@@ -35,6 +54,12 @@
 
 .jumbo-cont-margin{
     margin-top: 20rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.ps5{
+    margin-top: 3rem;
 }
 
 .btn-jumbo{
@@ -48,6 +73,8 @@
 .thumb{
     width: 100%;
     border-radius: 15px;
+    padding: 2px;
+    border: 2px solid white;
 }
 
 .p-intro{
@@ -67,8 +94,18 @@
     width: 100%;
 }
 
+.products{
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+}
+
+main .container-fluid>.row{
+    padding: 0 2rem;
+}
+
 .btn-console{
     background-color: #2d64e6;
+    color: white;
 }
 
 .console-content{
@@ -78,16 +115,32 @@
 .product-container{
     flex:0 0 auto;
     width: 20%; 
+    border-bottom: 2px solid white;
+    filter: opacity(0.5);
 }
 
 .product-container:hover{
-    border-bottom: 1px solid #2d64e6;
+    border-bottom: 2px solid #2d64e6;
+    filter: opacity(1);
+}
+
+.btn{
+    color: white;
+}
+
+.thumb:hover{
+    border: 2px solid #2d64e6;
 }
 
 .it2-img{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.it2-content{
+    color: white;
+    padding: 3rem 0;
 }
 
 .games img{
@@ -106,6 +159,16 @@
 
 .esplora img{
     width: 100%;
+    padding: 3rem 2rem;
+}
+
+
+.esp-selector p:first-of-type{
+    margin: 0;
+}
+
+.esplora-cont{
+    margin-top: 3rem;
 }
 
 .ps-plus{
@@ -133,6 +196,10 @@
     width: 100%;
 }
 
+.sconti-cont{
+    margin-top: 2rem;
+}
+
 .ps-now{
     color: white;
     background-color: #161c3b;
@@ -147,6 +214,14 @@
     width: 100%;
 }
 
+.social-cont{
+    margin-top: 2rem;
+}
+
+.social{
+    margin-bottom: 2rem;
+}
+
 .ps-footer img{
     width: 100%;
 }
@@ -154,10 +229,12 @@
 footer{
     background-color: #00439c;
     color: white;
+    padding: 2rem;
 }
 
 .globe{
     display: flex;
+    margin: 2rem 0;
 }
 
 .globe img{
@@ -184,6 +261,14 @@ footer{
 
 .copyright span{
     text-decoration: underline;
+}
+
+.text-grey p{
+    color: grey;
+}
+
+footer ul{
+    padding: 0;
 }
 
 @media(max-width :768px){
